@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SettingOption.Notification">
+
+
+        <ImageView
+            android:id="@+id/imgBack"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/logo_back"
+            android:layout_width="20dp"
+            android:layout_height="20dp"></ImageView>
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:background="@color/gray"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"></ImageView>
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:paddingTop="50dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#142831"
+            android:textSize="28dp"
+            android:text="Thông báo bài mới đã tới!"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></TextView>
+        <TextView
+            android:layout_marginTop="-7.5dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#142831"
+            android:textSize="28dp"
+            android:text="Hãy chọn thời gian nhận"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-7.5dp"
+            android:gravity="center"
+            android:text="phù hợp với bạn"
+            android:textColor="#142831"
+            android:textSize="28dp"
+            android:textStyle="bold"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lnlMorning"
+        android:background="@drawable/lnl_timeinday"
+        android:weightSum="2"
+        android:layout_marginTop="45dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="175dp"
+        android:layout_height="45dp">
+        <ImageView
+            android:layout_weight="1"
+            android:layout_marginLeft="15dp"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:src="@drawable/logo_morning"
+            android:layout_width="20dp"
+            android:layout_height="20dp"></ImageView>
+        <TextView
+            android:id="@+id/txtvMorning"
+            android:layout_weight="1"
+            android:layout_marginLeft="30dp"
+            android:textColor="#142831"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            android:text="9 AM"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lnlNoon"
+        android:background="@drawable/lnl_timeinday"
+        android:weightSum="2"
+        android:layout_marginTop="25dp"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="175dp"
+        android:layout_height="45dp">
+        <ImageView
+            android:layout_weight="1"
+            android:layout_marginLeft="15dp"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:src="@drawable/logo_noon"
+            android:layout_width="20dp"
+            android:layout_height="20dp"></ImageView>
+        <TextView
+            android:id="@+id/txtvNoon"
+            android:layout_weight="1"
+            android:layout_marginLeft="25dp"
+            android:textColor="#142831"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            android:text="12 PM"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lnlNight"
+        android:background="@drawable/lnl_timeinday"
+        android:weightSum="2"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="175dp"
+        android:layout_height="45dp">
+        <ImageView
+            android:layout_weight="1"
+            android:layout_marginLeft="15dp"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:src="@drawable/logo_night"
+            android:layout_width="20dp"
+            android:layout_height="20dp"></ImageView>
+        <TextView
+            android:id="@+id/txtvNight"
+            android:layout_weight="1"
+            android:layout_marginLeft="30dp"
+            android:textColor="#142831"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            android:text="9 PM"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnNotification"
+        android:background="@drawable/bg_btn_2"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:textSize="14dp"
+        android:textColor="#142831"
+        android:text="Xong"
+        android:layout_width="165dp"
+        android:layout_height="45dp"></Button>
+
+</LinearLayout>

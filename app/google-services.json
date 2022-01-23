@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "135311622379",
+    "project_id": "demohnbag",
+    "storage_bucket": "demohnbag.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:135311622379:android:56ebd97506340a9f9f3eae",
+        "android_client_info": {
+          "package_name": "com.example.demoapphnbag2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "135311622379-4krtv0hkonruv4cl38jb7ja075h939c0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxlx2Iqcxq1i6BIjOtVjAXeqWc5lVwKHE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "135311622379-4krtv0hkonruv4cl38jb7ja075h939c0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

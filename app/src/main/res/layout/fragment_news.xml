@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    tools:context=".Fragment.NewsFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:weightSum="10"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:layout_width="25dp"
+                android:layout_height="25dp"></ImageView>
+            <TextView
+                android:layout_weight="8"
+                android:layout_marginTop="5dp"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:textColor="#142831"
+                android:text="HNBAG"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></TextView>
+
+            <ImageView
+                android:id="@+id/imgSearch"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:src="@drawable/ic_search_black_o"
+                android:layout_width="25dp"
+                android:layout_height="25dp"></ImageView>
+        </LinearLayout>
+
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/tl_news"
+                app:tabMode="scrollable"
+                app:tabTextColor="@color/midnight"
+                android:layout_marginTop="10dp"
+                app:tabSelectedTextColor="@color/orange"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:background="@color/gray"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"></ImageView>
+
+            <androidx.viewpager2.widget.ViewPager2
+                android:id="@+id/vp_news"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+</FrameLayout>

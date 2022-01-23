@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BeginApp.BeginLanguage">
+
+        <TextView
+            android:paddingTop="60dp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:textColor="#142831"
+            android:textSize="50dp"
+            android:text="HNBAG"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></TextView>
+
+        <TextView
+            android:layout_marginTop="145dp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:textColor="#9F9F9F"
+            android:textSize="14dp"
+            android:text="phiên bản/Edition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></TextView>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:id="@+id/btnVie"
+                android:background="@drawable/bg_btn_begin"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:textColor="#142831"
+                android:textSize="15dp"
+                android:text="việt nam"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"></Button>
+
+            <Button
+                android:id="@+id/btnEl"
+                android:background="@drawable/bg_btn_begin"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:textColor="#142831"
+                android:textSize="15dp"
+                android:text="international"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"></Button>
+
+<!--            <ImageButton-->
+<!--                android:id="@+id/imgbtnNext"-->
+<!--                android:src="@drawable/logo_next"-->
+<!--                android:background="@drawable/bg_btn_begin_next"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:layout_marginTop="160dp"-->
+<!--                android:textAlignment="center"-->
+<!--                android:textStyle="bold"-->
+<!--                android:textAllCaps="true"-->
+<!--                android:textColor="#8F8F8F"-->
+<!--                android:textSize="15dp"-->
+<!--                android:layout_width="65dp"-->
+<!--                android:layout_height="65dp"></ImageButton>-->
+
+            <FrameLayout
+                android:id="@+id/flNext"
+                android:gravity="center"
+                android:background="@drawable/bg_btn_begin_next"
+                android:layout_gravity="center"
+                android:layout_marginTop="160dp"
+                android:layout_width="65dp"
+                android:layout_height="65dp">
+                    <ImageButton
+                        android:id="@+id/imgbtnNext"
+                        android:layout_gravity="center"
+                        android:background="@drawable/logo_next"
+                        android:layout_width="20dp"
+                        android:layout_height="15dp"></ImageButton>
+
+            </FrameLayout>
+        </LinearLayout>
+
+</LinearLayout>

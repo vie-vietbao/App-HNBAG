@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Fragment.MoreFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:weightSum="10"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:layout_width="25dp"
+                android:layout_height="25dp"></ImageView>
+            <TextView
+                android:layout_weight="8"
+                android:layout_marginTop="18dp"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:textColor="#142831"
+                android:text="More"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></TextView>
+
+            <ImageView
+                android:id="@+id/imgSetting"
+                android:padding="2dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:src="@drawable/ic_settings_black"
+                android:layout_width="25dp"
+                android:layout_height="25dp"></ImageView>
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginTop="225dp"
+            android:text="Join HNBAG now"
+            android:textColor="#000000"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></TextView>
+
+        <TextView
+            android:layout_marginTop="18dp"
+            android:text="Save your favorite articles and"
+            android:textColor="#000000"
+            android:textSize="19dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></TextView>
+
+        <TextView
+            android:layout_marginTop="-5dp"
+            android:text="personalize your feed."
+            android:textColor="#000000"
+            android:textSize="19dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></TextView>
+
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnLogin"
+                android:textAllCaps="false"
+                android:text="Login"
+                android:textColor="@color/white"
+                android:background="@drawable/btn_orange"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="165dp"
+                android:layout_height="60dp"></Button>
+
+            <Button
+                android:id="@+id/btnRegister"
+                android:textAllCaps="false"
+                android:text="Register"
+                android:textColor="@color/white"
+                android:background="@drawable/btn_orange"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_width="165dp"
+                android:layout_height="60dp"></Button>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</FrameLayout>

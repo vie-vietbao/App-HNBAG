@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".SettingOption.DarkMode">
+
+    <LinearLayout
+        android:weightSum="10"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/imgBack"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="-15dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:src="@drawable/logo_back"
+            android:layout_width="20dp"
+            android:layout_height="20dp"></ImageView>
+        <TextView
+            android:layout_weight="8"
+            android:layout_marginTop="18dp"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:textColor="#142831"
+            android:text="Dark Mode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView>
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_marginRight="-15dp"
+            android:layout_width="20dp"
+            android:layout_height="20dp"></ImageView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:background="@color/lightgray"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_marginTop="40dp"
+            android:background="@color/gray"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"></ImageView>
+
+    <ListView
+        android:id="@+id/lvDarkmode"
+        android:background="@color/white"
+        android:divider="@color/gray"
+        android:dividerHeight="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></ListView>
+        <ImageView
+            android:background="@color/gray"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"></ImageView>
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/btnNews"
+        android:icon="@drawable/ic_news_black"
+        android:title="News" />
+    <item
+        android:id="@+id/btnSections"
+        android:icon="@drawable/ic_section_black"
+        android:title="Sections" />
+    <item
+        android:id="@+id/btnDrops"
+        android:icon="@drawable/ic_drops_black"
+        android:title="Drops"/>
+    <item
+
+        android:id="@+id/btnMore"
+        android:icon="@drawable/ic_more_horiz_black"
+        android:title="More"/>
+</menu>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/item_img"
+        android:src="@drawable/hakyfood"
+        android:scaleType="centerCrop"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"></ImageView>
+
+    <TextView
+        android:id="@+id/item_typpe"
+        android:layout_marginTop="10dp"
+        android:textSize="16dp"
+        android:textColor="@color/midnight"
+        android:text="Food - FoodNight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TextView>
+    <TextView
+        android:id="@+id/item_title"
+        android:layout_marginTop="10dp"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:textColor="@color/midnight"
+        android:text="Hakyfood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TextView>
+
+    <LinearLayout
+        android:weightSum="10"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_weight="9"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:src="@drawable/logo_date"
+                android:layout_gravity="center"
+                android:layout_width="15dp"
+                android:layout_height="15dp"></ImageView>
+
+            <TextView
+                android:id="@+id/item_date"
+                android:text="Dec, 16, 2021"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="5dp"
+                android:textSize="12sp"
+                android:textColor="@color/gray"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></TextView>
+
+            <ImageView
+                android:src="@drawable/logo_fire"
+                android:layout_gravity="center"
+                android:layout_width="15dp"
+                android:layout_height="15dp"></ImageView>
+
+            <TextView
+                android:id="@+id/item_like"
+                android:text="2,943"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:textSize="12sp"
+                android:textColor="@color/gray"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></TextView>
+
+            <ImageView
+                android:src="@drawable/logo_mes"
+                android:layout_gravity="center"
+                android:layout_width="15dp"
+                android:layout_height="15dp"></ImageView>
+
+            <TextView
+                android:id="@+id/item_mes"
+                android:text="1"
+                android:layout_marginLeft="5dp"
+                android:textSize="12sp"
+                android:textColor="@color/gray"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/img_share"
+                android:src="@drawable/logo_share"
+                android:layout_gravity="center"
+                android:layout_width="20dp"
+                android:layout_height="20dp"></ImageView>
+
+            <ImageView
+                android:id="@+id/img_save"
+                android:src="@drawable/logo_save"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_width="20dp"
+                android:layout_height="20dp"></ImageView>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
